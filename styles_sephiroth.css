@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 html {
     font-size: 10px;
     color: #4e4d4d;
@@ -11,6 +10,10 @@ html {
 input {
     width:100%;
     display:block 
+}
+
+.numberInput {
+    margin-left: 1rem;
 }
 
 main {
@@ -113,19 +116,12 @@ input[type="number"] {
 
 
 /*original styling v 
-=======
->>>>>>> cf2635f10a19654802c33ce5cb8414245725c75e
 html {
     font-size: 10px;
     color: #4e4d4d;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
-    background: #2d2d2d;
-}
-
-input {
-    width:100%;
-    display:block 
+    background: #022c43;
 }
 
 input {
@@ -134,34 +130,23 @@ input {
 }
 
 main {
-    height: 100%;
-    max-width: 40rem;
+    max-width: 50rem;
     margin: 2rem auto;
     background-image:url('images/smash\ Screen\ Shot\ 9-11-22\,\ 8.43\ PM\ 2.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-<<<<<<< HEAD
     padding: 3rem 1.6rem 6rem 1.6rem;
     border-radius: 3rem;
     box-shadow: 2px 4px 6px;
-=======
-    padding: 3rem 1.5rem 1rem 1.5rem;
-    border-radius: 3rem;
-    box-shadow: 2px 4px 6px;
-    contain: style;
-    resize: both;
->>>>>>> cf2635f10a19654802c33ce5cb8414245725c75e
 }
 
 h1 {
-    -webkit-text-stroke: 0.7px #e6e6e6;
-    text-shadow: -2px 3px 4px #4e4d4d;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Permanent Marker';
     text-align: center;
     font-size: 4rem;
     margin: 0;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
     font-weight: 100;
 }
 
@@ -169,14 +154,14 @@ section {
     background-color: rgba(252, 252, 252, 0.7);
     opacity: 0.;
     font-size: 1.8rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
     padding: 0 1.6rem;
     border-radius: 1rem;
     box-shadow: inset 0 -2px 3px;
 }
 
 section > div {
-    padding: 1rem 0;
+    padding: 1.6rem 0;
 }
 
 .bill {
@@ -234,8 +219,4 @@ input[type="number"] {
     background-repeat: no-repeat;
     cursor: pointer;
 
-<<<<<<< HEAD
 } */
-=======
-}
->>>>>>> cf2635f10a19654802c33ce5cb8414245725c75e
