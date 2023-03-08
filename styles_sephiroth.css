@@ -110,5 +110,12 @@ input[type="number"] {
     background-position: center center;
     background-repeat: no-repeat;
     cursor: pointer;
+}
 
+#splitInput {
+    margin-top: 2rem;
+}
+
+#tipSlider {
+    margin-top: 1.9rem;
 }
