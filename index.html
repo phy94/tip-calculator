@@ -19,7 +19,7 @@
     <main id="main">
         <section>
             <div class="bill">
-                <label for="">Bill Amount</label>
+                <label for="">Bill <br> (Pre-Tax)</label>
                 <input type="number" placeholder="0.00" id="billAmount" min="0" step="any" required class="numberInput"
                     onchange="decimals(this)" oninput="limitDecimal(this)">
             </div>
@@ -35,6 +35,11 @@
                 <span id="tipAmount"></span>
             </div>
             <hr>
+            <div class="billTax">
+                <label for="">Bill <br> (with Tax)</label>
+                <input type="number" placeholder="10% Tax default" id="billTax" min="0" step="any" required
+                    class="numberInput" onchange="decimals(this)" oninput="limitDecimal(this)">
+            </div>
             <div class="space-between important">
                 <span>Total</span>
                 <span id="totalWithTip"></span>
@@ -50,7 +55,7 @@
                 <input type="range" min="1" max="12" value="1" id="splitInput" class="range">
             </div>
             <div class="space-between">
-                <span>Split Bill</span>
+                <span>Split Bill <br> (with tax)</span>
                 <span id="splitEach"></span>
             </div>
             <div class="space-between">
